@@ -1,14 +1,18 @@
-# r3f-scrolling-animation-tutorial
+# My name is Andres Meza, developer and designer, you can see more of my work at: 👋
 
-![image](https://user-images.githubusercontent.com/6551176/216549194-a1cf4bc0-db5b-4773-aebc-7db5ce0d3459.png)
-
-
-Link to the YouTube tutorial 
-
-https://youtu.be/pXpckHDDNYo
-
-
-Demo link
-
-https://codesandbox.io/p/github/wass08/r3f-scrolling-animation-tutorial/draft/icy-platform?file=%2Fsrc%2FApp.jsx
-
+[![portfolio](https://img.shields.io/badge/my_portfolio-86a8cf?style=for-the-badge&logo=ko-fi&logoColor=white)](https://andresmza.com/)
+[![figma](https://img.shields.io/badge/figma-FF4525?style=for-the-badge&logo=figma&logoColor=white)](https://lnkd.in/e3qPT5sh)
+[![github](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=gitHub&logoColor=white)](https://github.com/AndresMzaDev)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andres-meza-dev/)
+[![dribbble](https://img.shields.io/badge/dribbble-f0467c?style=for-the-badge&logo=dribbble&logoColor=white)](https://lnkd.in/ea5rJx25)
+[![portfolio](https://img.shields.io/badge/my_portfolio-86a8cf?style=for-the-badge&logo=ko-fi&logoColor=white)](https://andresmza.com/)
+[![figma](https://img.shields.io/badge/figma-FF4525?style=for-the-badge&logo=figma&logoColor=white)](https://lnkd.in/e3qPT5sh)
+[![github](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=gitHub&logoColor=white)](https://github.com/AndresMzaDev)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andres-meza-dev/)
+[![dribbble](https://img.shields.io/badge/dribbble-f0467c?style=for-the-badge&logo=dribbble&logoColor=white)](https://lnkd.in/ea5rJx25)
+[![portfolio](https://img.shields.io/badge/my_portfolio-86a8cf?style=for-the-badge&logo=ko-fi&logoColor=white)](https://andresmza.com/)
+[![figma](https://img.shields.io/badge/figma-FF4525?style=for-the-badge&logo=figma&logoColor=white)](https://lnkd.in/e3qPT5sh)
+[![github](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=gitHub&logoColor=white)](https://github.com/AndresMzaDev)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andres-meza-dev/)
+[![dribbble](https://img.shields.io/badge/dribbble-f0467c?style=for-the-badge&logo=dribbble&logoColor=white)](https://lnkd.in/ea5rJx25)
+[![portfolio](https://img.shields.io/badge/my_portfolio-86a8cf?style=for-the-badge&logo=ko-fi&logoColor=white)](https://andresmza.com/)
