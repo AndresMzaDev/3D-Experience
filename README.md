@@ -1,3 +1,21 @@
+# 3D Experience
+
+
+It's a 3D test using react and three js. You can try it and see what you think.
+
+
+## Tech Stack
+
+**Client:** React, ThreeJS, ReactDrei
+
+
+
+## Authors
+
+- [@ndresMeza](https://www.linkedin.com/in/andres-meza-dev/)
+
+
+
 # My name is Andres Meza, developer and designer, you can see more of my work at: 👋
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-86a8cf?style=for-the-badge&logo=ko-fi&logoColor=white)](https://andresmza.com/)
