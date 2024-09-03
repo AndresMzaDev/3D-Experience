@@ -7,8 +7,9 @@ function App() {
     <Canvas
       camera={{
         fov: 64,
-        position: [-25, -20, -25],
+        position: [45, 15, 20],
       }}
+      shadows
     >
       <Experience />
     </Canvas>

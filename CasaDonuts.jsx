@@ -10,305 +10,300 @@ export function Model(props) {
   const { nodes, materials } = useGLTF('/casaDonuts.glb')
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.Cubo003.geometry} material={materials.arbol} position={[8.655, 14.334, -6.172]} scale={0.128}>
-        <mesh geometry={nodes.Cube.geometry} material={materials['Material.004']} position={[22.917, -112.01, 48.234]} rotation={[0, 0, -Math.PI]} scale={[-229.532, -1.124, -219.442]} />
-        <mesh geometry={nodes.Cube001.geometry} material={materials.Material} position={[123.818, -110.755, -67.791]} rotation={[0, 0, -Math.PI]} scale={[-10.619, -1.173, -10.152]} />
-        <mesh geometry={nodes.Cube002.geometry} material={materials['Material.004']} position={[22.917, -112.01, 637.504]} rotation={[0, 0, -Math.PI]} scale={[-229.532, -1.124, -219.442]} />
-        <mesh geometry={nodes.Cube003.geometry} material={materials['Material.004']} position={[-620.443, -112.01, 637.504]} rotation={[0, 0, -Math.PI]} scale={[-229.532, -1.124, -219.442]} />
-        <mesh geometry={nodes.Cube004.geometry} material={materials['Material.004']} position={[-620.443, -112.01, 55.177]} rotation={[0, 0, -Math.PI]} scale={[-229.532, -1.124, -219.442]} />
-        <group position={[-67.632, -25.438, 48.234]} scale={[69.791, 85.379, 85.379]}>
-          <mesh geometry={nodes.Cubo_1.geometry} material={materials.blenco} />
-          <mesh geometry={nodes.Cubo_2.geometry} material={materials.marcios} />
-          <mesh geometry={nodes.Cubo_3.geometry} material={materials.espejo} />
-          <mesh geometry={nodes.Cubo_4.geometry} material={materials['Material.009']} />
-        </group>
-        <mesh geometry={nodes.Cubo001.geometry} material={materials.marcios} position={[-0.082, -8.848, 13.842]} scale={[8.628, 7.815, 22.216]} />
-        <mesh geometry={nodes.Cubo002.geometry} material={materials.marcios} position={[-0.082, -8.848, 89.924]} rotation={[0, 0, -Math.PI]} scale={[-8.628, -7.815, -10.433]} />
-        <mesh geometry={nodes.Cubo004.geometry} material={materials.marcios} position={[-68.136, -8.713, -34.044]} rotation={[0, Math.PI / 2, 0]} scale={[8.97, 7.815, 31.931]} />
-        <group position={[-16.213, -27.111, 210.724]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo005_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo005_2.geometry} material={materials.cafe} />
-        </group>
-        <mesh geometry={nodes.Cubo006.geometry} material={materials.marcios} position={[-11.711, 20.922, 48.234]} scale={[1.028, 1.028, 68.205]} />
-        <mesh geometry={nodes.Cubo007.geometry} material={materials.marcios} position={[-70.987, 20.922, -20.141]} rotation={[0, Math.PI / 2, 0]} scale={[1.028, 1.028, 40.303]} />
-        <mesh geometry={nodes.Cubo008.geometry} material={materials.marcios} position={[-68.69, 31.678, -20.141]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={[1.028, 1.028, 40.303]} />
-        <group position={[-22.478, 87.304, -13.213]} scale={7.815}>
-          <mesh geometry={nodes.Cubo010_1.geometry} material={materials.blenco} />
-          <mesh geometry={nodes.Cubo010_2.geometry} material={materials.negro} />
-        </group>
-        <mesh geometry={nodes.Cubo010.geometry} material={materials.azulmate} position={[-51.539, 93.288, 73.654]} scale={[20.295, 7.815, 33.105]} />
-        <mesh geometry={nodes.Cubo011.geometry} material={materials['gris osciu.001']} position={[-33.822, 98.529, 90.795]} scale={[4.09, 0.249, 18.369]} />
-        <mesh geometry={nodes.Cubo012.geometry} material={materials['gris osciu.001']} position={[-33.822, 95.595, 90.795]} scale={[4.09, 0.249, 18.369]} />
-        <mesh geometry={nodes.Cubo013.geometry} material={materials['gris osciu.001']} position={[-33.822, 89.397, 90.795]} scale={[4.09, 0.249, 18.369]} />
-        <mesh geometry={nodes.Cubo014.geometry} material={materials['gris osciu.001']} position={[-33.822, 92.331, 90.795]} scale={[4.09, 0.249, 18.369]} />
-        <group position={[-116.292, 89.811, 104.965]} scale={2.978}>
-          <mesh geometry={nodes.Cubo018_1.geometry} material={materials.blenco} />
-          <mesh geometry={nodes.Cubo018_2.geometry} material={materials.negro} />
-        </group>
-        <group position={[-116.292, 89.811, -9.402]} scale={2.978}>
-          <mesh geometry={nodes.Cubo019_1.geometry} material={materials.blenco} />
-          <mesh geometry={nodes.Cubo019_2.geometry} material={materials.negro} />
-        </group>
-        <mesh geometry={nodes.Cubo017.geometry} material={materials.marcios} position={[-68.69, -70.603, -30.439]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={[1.028, 1.028, 40.303]} />
-        <mesh geometry={nodes.Cubo018.geometry} material={materials.arbol2} position={[0, 0, 17.8]} scale={0.696} />
-        <mesh geometry={nodes.Cubo019.geometry} material={materials.arbol2} position={[0, 0, 23.005]} scale={0.834} />
-        <mesh geometry={nodes.Cubo020.geometry} material={materials.arbol2} position={[0, 0, 89.915]} scale={0.834} />
-        <mesh geometry={nodes.Cubo021.geometry} material={materials.arbol2} position={[-46.688, 0, -34.318]} scale={[1, 0.452, 1]} />
-        <mesh geometry={nodes.Cubo022_1.geometry} material={materials['gris osciu.001']} position={[8.303, -103.303, -29.705]} rotation={[0, 0, -Math.PI]} scale={[-5.18, -4.692, -6.264]} />
-        <mesh geometry={nodes.Cubo023.geometry} material={materials.cafe} position={[8.654, -87.875, -29.937]} scale={[0.894, 14.245, 0.894]} />
-        <mesh geometry={nodes.Cubo024.geometry} material={materials.arbol} position={[8.654, -96.689, -29.937]} scale={3.548} />
-        <mesh geometry={nodes.Cubo025.geometry} material={materials.arbol} position={[8.654, -87.291, -29.937]} scale={2.746} />
-        <mesh geometry={nodes.Cubo026.geometry} material={materials.arbol} position={[8.654, -79.216, -29.937]} scale={2.746} />
-        <mesh geometry={nodes.Cubo027.geometry} material={materials.arbol} position={[8.654, -71.125, -29.937]} scale={2.746} />
-        <mesh geometry={nodes.Cubo028.geometry} material={materials.negro} position={[-4.271, -50.384, -37.112]} scale={[-0.8, -0.8, -4.932]} />
-        <mesh geometry={nodes.Cubo029.geometry} material={materials.negro} position={[-4.271, -45.532, -37.112]} scale={[-0.8, -0.8, -4.932]} />
-        <mesh geometry={nodes.Cubo030.geometry} material={materials['Material.003']} position={[-5.898, -73.843, -37.148]} scale={3.239} />
-        <mesh geometry={nodes.Cubo031.geometry} material={materials['Material.005']} position={[214.258, -110.849, 49.61]} scale={[78.624, 1.466, 225.478]} />
-        <mesh geometry={nodes.Cubo032.geometry} material={materials.blenco} position={[211.665, -109.18, 244.672]} scale={[6.918, 0.129, 19.839]} />
-        <mesh geometry={nodes.Cubo033.geometry} material={materials.blenco} position={[212.157, -109.18, 161.565]} scale={[6.918, 0.129, 19.839]} />
-        <mesh geometry={nodes.Cubo034.geometry} material={materials.blenco} position={[213.141, -109.18, 79.442]} scale={[6.918, 0.129, 19.839]} />
-        <mesh geometry={nodes.Cubo035.geometry} material={materials.blenco} position={[213.857, -109.18, -10.934]} scale={[6.918, 0.129, 19.839]} />
-        <mesh geometry={nodes.Cubo036.geometry} material={materials.blenco} position={[214.84, -109.18, -93.057]} scale={[6.918, 0.129, 19.839]} />
-        <mesh geometry={nodes.Cubo037.geometry} material={materials.blenco} position={[215.69, -109.18, -164.069]} scale={[6.918, 0.129, 11.625]} />
-        <group position={[122.067, -104.819, 146.315]} rotation={[0, 0, -Math.PI]} scale={[-5.516, -4.996, -6.67]}>
-          <mesh geometry={nodes.Cubo043_1.geometry} material={materials['gris osciu.001']} />
-          <mesh geometry={nodes.Cubo043_2.geometry} material={materials.blenco} />
-        </group>
-        <mesh geometry={nodes.Cubo039.geometry} material={materials.arbol} position={[122.119, -99.162, 146.309]} scale={0.533} />
-        <group position={[122.067, -104.819, 126.889]} rotation={[0, 0, -Math.PI]} scale={[-5.516, -4.996, -6.67]}>
-          <mesh geometry={nodes.Cubo045_1.geometry} material={materials['Material.001']} />
-          <mesh geometry={nodes.Cubo045_2.geometry} material={materials['Material.002']} />
-        </group>
-        <mesh geometry={nodes.Cubo041.geometry} material={materials.arbol2} position={[122.119, -99.162, 126.883]} scale={0.533} />
-        <group position={[-111.848, -0.772, 247.947]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-24.409, -64.569, -24.919]}>
-          <mesh geometry={nodes.Cubo051_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo051_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-42.937, -52.875, -114.709]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-12.951, -34.261, -13.222]}>
-          <mesh geometry={nodes.Cubo054_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo054_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-168.74, -0.772, -146.856]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-24.409, -64.569, -24.919]}>
-          <mesh geometry={nodes.Cubo055_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo055_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-63.954, -27.333, -153.261]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo056_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo056_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-39.3, -27.333, 251.972]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo052_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo052_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-74.179, -16.022, 184.84]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-20.959, -55.443, -21.397]}>
-          <mesh geometry={nodes.Cubo053_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo053_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-113.055, -16.022, -99.971]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-20.959, -55.443, -21.397]}>
-          <mesh geometry={nodes.Cubo057_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo057_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[129.348, -106.579, 169.178]} scale={-3.456}>
-          <mesh geometry={nodes.Cubo058_1.geometry} material={materials['Material.007']} />
-          <mesh geometry={nodes.Cubo058_2.geometry} material={materials['Material.008']} />
-        </group>
-        <group position={[-16.213, -27.111, 492.876]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo059_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo059_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-161.396, -0.772, 471.113]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-24.409, -64.569, -24.919]}>
-          <mesh geometry={nodes.Cubo060_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo060_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-37.935, -27.333, 566.895]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo061_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo061_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-74.179, -16.022, 466.992]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-20.959, -55.443, -21.397]}>
-          <mesh geometry={nodes.Cubo062_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo062_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[77.873, -27.111, 492.876]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo101.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo101_1.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-457.119, -27.333, 499.989]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo064_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo064_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-429.188, -16.022, 450.607]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-20.959, -55.443, -21.397]}>
-          <mesh geometry={nodes.Cubo065_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo065_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-548.783, -0.772, 175.09]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-24.409, -64.569, -24.919]}>
-          <mesh geometry={nodes.Cubo066_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo066_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-474.87, -27.333, 211.885]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo067_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo067_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-446.939, -16.022, 162.503]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-20.959, -55.443, -21.397]}>
-          <mesh geometry={nodes.Cubo068_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo068_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-94.523, -27.111, 712.259]} rotation={[0, 0.004, -Math.PI]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo069_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo069_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-132.103, -0.772, 616.763]} rotation={[0, 0.004, -Math.PI]} scale={[-24.409, -64.569, -24.919]}>
-          <mesh geometry={nodes.Cubo070_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo070_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-168.622, -27.333, 690.813]} rotation={[0, 0.004, -Math.PI]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo071_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo071_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-68.856, -16.022, 654.197]} rotation={[0, -1.567, -Math.PI]} scale={[-20.959, -55.443, -21.397]}>
-          <mesh geometry={nodes.Cubo072_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo072_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-441.383, -27.111, 671.296]} rotation={[0, 0.004, -Math.PI]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo073_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo073_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-526.71, -0.772, 575.801]} rotation={[0, 0.004, -Math.PI]} scale={[-24.409, -64.569, -24.919]}>
-          <mesh geometry={nodes.Cubo074_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo074_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-563.229, -27.333, 649.851]} rotation={[0, 0.004, -Math.PI]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo075_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo075_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-463.462, -16.022, 613.234]} rotation={[0, -1.567, -Math.PI]} scale={[-20.959, -55.443, -21.397]}>
-          <mesh geometry={nodes.Cubo076_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo076_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-745.742, -0.772, 552.853]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-24.409, -64.569, -24.919]}>
-          <mesh geometry={nodes.Cubo077_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo077_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-671.829, -27.333, 589.648]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo078_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo078_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-643.898, -16.022, 540.266]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-20.959, -55.443, -21.397]}>
-          <mesh geometry={nodes.Cubo079_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo079_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-703.839, -27.111, 760.956]} rotation={[0, 0.004, -Math.PI]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo080_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo080_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-741.42, -0.772, 665.46]} rotation={[0, 0.004, -Math.PI]} scale={[-24.409, -64.569, -24.919]}>
-          <mesh geometry={nodes.Cubo081_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo081_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-777.939, -27.333, 739.51]} rotation={[0, 0.004, -Math.PI]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo082_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo082_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-678.172, -16.022, 702.893]} rotation={[0, -1.567, -Math.PI]} scale={[-20.959, -55.443, -21.397]}>
-          <mesh geometry={nodes.Cubo083_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo083_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-739.898, -0.772, 127.901]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-24.409, -64.569, -24.919]}>
-          <mesh geometry={nodes.Cubo084_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo084_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-665.985, -27.333, 164.696]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo085_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo085_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-638.054, -16.022, 115.314]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-20.959, -55.443, -21.397]}>
-          <mesh geometry={nodes.Cubo086_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo086_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-472.614, -27.111, 81.434]} rotation={[0, 0.004, -Math.PI]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo087_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo087_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-510.194, -0.772, -124.644]} rotation={[0, 0.004, -Math.PI]} scale={[-24.409, -64.569, -24.919]}>
-          <mesh geometry={nodes.Cubo088_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo088_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-546.713, -27.333, 59.989]} rotation={[0, 0.004, -Math.PI]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo089_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo089_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-446.946, -16.022, 23.372]} rotation={[0, -1.567, -Math.PI]} scale={[-20.959, -55.443, -21.397]}>
-          <mesh geometry={nodes.Cubo090_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo090_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-655.313, -27.333, -0.214]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo091_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo091_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-627.382, -16.022, -49.596]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-20.959, -55.443, -21.397]}>
-          <mesh geometry={nodes.Cubo092_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo092_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-541.268, -0.772, 725.934]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-24.409, -64.569, -24.919]}>
-          <mesh geometry={nodes.Cubo093_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo093_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-467.354, -27.333, 762.729]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo094_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo094_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-99.821, -27.111, 836.458]} rotation={[0, 0.004, -Math.PI]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo097.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo097_1.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-561.523, -0.772, 812.598]} rotation={[0, 0.004, -Math.PI]} scale={[-24.409, -64.569, -24.919]}>
-          <mesh geometry={nodes.Cubo096_1.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo096_2.geometry} material={materials.cafe} />
-        </group>
-        <group position={[62.003, -0.772, 740.962]} rotation={[0, 0.004, -Math.PI]} scale={[-24.409, -64.569, -24.919]}>
-          <mesh geometry={nodes.Cubo098.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo098_1.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-173.92, -27.333, 815.012]} rotation={[0, 0.004, -Math.PI]} scale={[-18.89, -49.969, -19.284]}>
-          <mesh geometry={nodes.Cubo099.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo099_1.geometry} material={materials.cafe} />
-        </group>
-        <group position={[-74.153, -16.022, 778.395]} rotation={[0, -1.567, -Math.PI]} scale={[-20.959, -55.443, -21.397]}>
-          <mesh geometry={nodes.Cubo100.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo100_1.geometry} material={materials.cafe} />
-        </group>
-        <group position={[115.552, -70.552, 257.525]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-8.948, -23.669, -9.135]}>
-          <mesh geometry={nodes.Cubo102.geometry} material={materials.arbol} />
-          <mesh geometry={nodes.Cubo102_1.geometry} material={materials.cafe} />
-        </group>
-        <group position={[129.348, -106.579, -70.219]} scale={-3.456}>
-          <mesh geometry={nodes.Cubo103.geometry} material={materials['Material.007']} />
-          <mesh geometry={nodes.Cubo103_1.geometry} material={materials['Material.008']} />
-        </group>
-        <group position={[-7.834, 56.154, -16.174]} scale={[0.716, 2.377, 0.716]}>
-          <mesh geometry={nodes.Cubo104.geometry} material={materials.negro} />
-          <mesh geometry={nodes.Cubo104_1.geometry} material={materials['blanco 2']} />
-        </group>
-        <group position={[-7.834, 56.154, 112.661]} scale={[0.716, 2.377, 0.716]}>
-          <mesh geometry={nodes.Cubo105.geometry} material={materials.negro} />
-          <mesh geometry={nodes.Cubo105_1.geometry} material={materials['blanco 2']} />
-        </group>
-        <group position={[-16.548, 55.936, -24.219]} scale={[0.716, 2.377, 0.716]}>
-          <mesh geometry={nodes.Cubo106.geometry} material={materials.negro} />
-          <mesh geometry={nodes.Cubo106_1.geometry} material={materials['blanco 2']} />
-        </group>
-        <group position={[-114.665, 55.936, -24.219]} scale={[0.716, 2.377, 0.716]}>
-          <mesh geometry={nodes.Cubo107.geometry} material={materials.negro} />
-          <mesh geometry={nodes.Cubo107_1.geometry} material={materials['blanco 2']} />
-        </group>
-        <mesh geometry={nodes.Plano.geometry} material={materials.cortinas} position={[32.421, -35.398, 8.646]} scale={[26.957, 26.957, 39.081]} />
-        <mesh geometry={nodes.Plano001.geometry} material={materials.cortinas} position={[32.421, -35.398, 87.593]} scale={26.957} />
-        <mesh geometry={nodes.Plano002.geometry} material={materials.piso} position={[-277.478, -113.12, 249.817]} scale={1033.897} />
-        <mesh geometry={nodes.Rosca.geometry} material={materials.arbol2} position={[-4.271, -47.262, -50.319]} rotation={[0, 0, -Math.PI / 2]} scale={[7.815, 11.516, 7.815]} />
-      </mesh>
-      <mesh geometry={nodes.Plano004.geometry} material={materials.negro} position={[-128.653, 2.321, 26.595]} rotation={[Math.PI / 2, 1.003, 1.466]} scale={[73.302, 131.801, 132.305]} />
-      <mesh geometry={nodes.Plano003.geometry} material={materials.negro} position={[-165.177, 15.285, 165.178]} rotation={[2.817, -1.007, -0.367]} scale={[73.302, 131.801, 132.305]} />
-      <mesh geometry={nodes.Plano005.geometry} material={materials.negro} position={[0.274, 1.149, 279.886]} rotation={[-0.5, -0.816, 2.745]} scale={[103.919, 186.852, 187.567]} />
-      <mesh geometry={nodes.Esfera.geometry} material={materials['Material.012']} position={[-144.744, 67.302, 244.291]} scale={10.191} />
+      <mesh geometry={nodes.Cube.geometry} material={materials['Material.004']} position={[11.587, 0, 0]} rotation={[0, 0, -Math.PI]} scale={[-29.373, -0.144, -28.081]} />
+      <group position={[0, 11.078, 0]} scale={[8.931, 10.926, 10.926]}>
+        <mesh geometry={nodes.Cubo_1.geometry} material={materials.blenco} />
+        <mesh geometry={nodes.Cubo_2.geometry} material={materials.marcios} />
+        <mesh geometry={nodes.Cubo_3.geometry} material={materials.espejo} />
+        <mesh geometry={nodes.Cubo_4.geometry} material={materials['Material.009']} />
+      </group>
+      <mesh geometry={nodes.Cubo001.geometry} material={materials.marcios} position={[8.644, 13.201, -4.401]} scale={[1.104, 1, 2.843]} />
+      <mesh geometry={nodes.Cubo002.geometry} material={materials.marcios} position={[8.644, 13.201, 5.335]} rotation={[0, 0, -Math.PI]} scale={[-1.104, -1, -1.335]} />
+      <group position={[6.58, 10.864, 20.793]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo005_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo005_2.geometry} material={materials.cafe} />
+      </group>
+      <mesh geometry={nodes.Cubo004.geometry} material={materials.marcios} position={[-0.064, 13.219, -10.529]} rotation={[0, Math.PI / 2, 0]} scale={[1.148, 1, 4.086]} />
+      <mesh geometry={nodes.Cubo006.geometry} material={materials.marcios} position={[7.156, 17.011, 0]} scale={[0.132, 0.132, 8.728]} />
+      <mesh geometry={nodes.Cubo007.geometry} material={materials.marcios} position={[-0.429, 17.011, -8.75]} rotation={[0, Math.PI / 2, 0]} scale={[0.132, 0.132, 5.157]} />
+      <mesh geometry={nodes.Cubo008.geometry} material={materials.marcios} position={[-0.135, 18.387, -8.75]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={[0.132, 0.132, 5.157]} />
+      <group position={[5.778, 25.506, -7.863]}>
+        <mesh geometry={nodes.Cubo010_1.geometry} material={materials.blenco} />
+        <mesh geometry={nodes.Cubo010_2.geometry} material={materials.negro} />
+      </group>
+      <mesh geometry={nodes.Cubo010.geometry} material={materials.azulmate} position={[2.059, 26.271, 3.253]} scale={[2.597, 1, 4.236]} />
+      <mesh geometry={nodes.Cubo012.geometry} material={materials['gris osciu.001']} position={[4.326, 26.567, 5.446]} scale={[0.523, 0.032, 2.351]} />
+      <mesh geometry={nodes.Cubo011.geometry} material={materials['gris osciu.001']} position={[4.326, 26.942, 5.446]} scale={[0.523, 0.032, 2.351]} />
+      <mesh geometry={nodes.Cubo013.geometry} material={materials['gris osciu.001']} position={[4.326, 25.773, 5.446]} scale={[0.523, 0.032, 2.351]} />
+      <mesh geometry={nodes.Cubo014.geometry} material={materials['gris osciu.001']} position={[4.326, 26.149, 5.446]} scale={[0.523, 0.032, 2.351]} />
+      <group position={[-6.227, 25.826, 7.26]} scale={0.381}>
+        <mesh geometry={nodes.Cubo018_1.geometry} material={materials.blenco} />
+        <mesh geometry={nodes.Cubo018_2.geometry} material={materials.negro} />
+      </group>
+      <group position={[-6.227, 25.826, -7.376]} scale={0.381}>
+        <mesh geometry={nodes.Cubo019_1.geometry} material={materials.blenco} />
+        <mesh geometry={nodes.Cubo019_2.geometry} material={materials.negro} />
+      </group>
+      <mesh geometry={nodes.Plano.geometry} material={materials.cortinas} position={[12.803, 9.804, -5.066]} scale={[3.45, 3.45, 5.001]} />
+      <mesh geometry={nodes.Plano001.geometry} material={materials.cortinas} position={[12.803, 9.804, 5.037]} scale={3.45} />
+      <mesh geometry={nodes.Cubo017.geometry} material={materials.marcios} position={[-0.135, 5.299, -10.068]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={[0.132, 0.132, 5.157]} />
+      <mesh geometry={nodes.Cubo003.geometry} material={materials.arbol} position={[8.655, 14.334, -6.172]} scale={0.128} />
+      <mesh geometry={nodes.Cubo018.geometry} material={materials.arbol2} position={[8.655, 14.334, -3.895]} scale={0.089} />
+      <mesh geometry={nodes.Cubo019.geometry} material={materials.arbol2} position={[8.655, 14.334, -3.229]} scale={0.107} />
+      <mesh geometry={nodes.Cubo020.geometry} material={materials.arbol2} position={[8.655, 14.334, 5.334]} scale={0.107} />
+      <mesh geometry={nodes.Cubo021.geometry} material={materials.arbol2} position={[2.68, 14.334, -10.564]} scale={[0.128, 0.058, 0.128]} />
+      <mesh geometry={nodes.Cubo022.geometry} material={materials['gris osciu.001']} position={[9.717, 1.114, -9.974]} rotation={[0, 0, -Math.PI]} scale={[-0.663, -0.6, -0.802]} />
+      <mesh geometry={nodes.Cubo023.geometry} material={materials.cafe} position={[9.762, 3.088, -10.003]} scale={[0.114, 1.823, 0.114]} />
+      <mesh geometry={nodes.Cubo024.geometry} material={materials.arbol} position={[9.762, 1.961, -10.003]} scale={0.454} />
+      <mesh geometry={nodes.Cubo025.geometry} material={materials.arbol} position={[9.762, 3.163, -10.003]} scale={0.351} />
+      <mesh geometry={nodes.Cubo026.geometry} material={materials.arbol} position={[9.762, 4.196, -10.003]} scale={0.351} />
+      <mesh geometry={nodes.Cubo027.geometry} material={materials.arbol} position={[9.762, 5.232, -10.003]} scale={0.351} />
+      <mesh geometry={nodes.Rosca.geometry} material={materials.arbol2} position={[8.108, 8.286, -12.612]} rotation={[0, 0, -Math.PI / 2]} scale={[1, 1.474, 1]} />
+      <mesh geometry={nodes.Cubo028.geometry} material={materials.negro} position={[8.108, 7.886, -10.922]} scale={[-0.102, -0.102, -0.631]} />
+      <mesh geometry={nodes.Cubo029.geometry} material={materials.negro} position={[8.108, 8.507, -10.922]} scale={[-0.102, -0.102, -0.631]} />
+      <mesh geometry={nodes.Cubo030.geometry} material={materials['Material.003']} position={[7.9, 4.884, -10.926]} scale={0.415} />
+      <mesh geometry={nodes.Cubo031.geometry} material={materials['Material.005']} position={[36.073, 0.149, 0.176]} scale={[10.061, 0.188, 28.854]} />
+      <mesh geometry={nodes.Cubo032.geometry} material={materials.blenco} position={[35.741, 0.362, 25.138]} scale={[0.885, 0.017, 2.539]} />
+      <mesh geometry={nodes.Cubo033.geometry} material={materials.blenco} position={[35.804, 0.362, 14.503]} scale={[0.885, 0.017, 2.539]} />
+      <mesh geometry={nodes.Cubo034.geometry} material={materials.blenco} position={[35.93, 0.362, 3.994]} scale={[0.885, 0.017, 2.539]} />
+      <mesh geometry={nodes.Cubo035.geometry} material={materials.blenco} position={[36.021, 0.362, -7.572]} scale={[0.885, 0.017, 2.539]} />
+      <mesh geometry={nodes.Cubo036.geometry} material={materials.blenco} position={[36.147, 0.362, -18.081]} scale={[0.885, 0.017, 2.539]} />
+      <mesh geometry={nodes.Cubo037.geometry} material={materials.blenco} position={[36.256, 0.362, -27.168]} scale={[0.885, 0.017, 1.488]} />
+      <mesh geometry={nodes.Cube001.geometry} material={materials.Material} position={[24.499, 0.161, -14.847]} rotation={[0, 0, -Math.PI]} scale={[-1.359, -0.15, -1.299]} />
+      <group position={[24.275, 0.92, 12.551]} rotation={[0, 0, -Math.PI]} scale={[-0.706, -0.639, -0.854]}>
+        <mesh geometry={nodes.Cubo043_1.geometry} material={materials['gris osciu.001']} />
+        <mesh geometry={nodes.Cubo043_2.geometry} material={materials.blenco} />
+      </group>
+      <mesh geometry={nodes.Cubo039.geometry} material={materials.arbol} position={[24.282, 1.644, 12.55]} scale={0.068} />
+      <group position={[24.275, 0.92, 10.065]} rotation={[0, 0, -Math.PI]} scale={[-0.706, -0.639, -0.854]}>
+        <mesh geometry={nodes.Cubo045_1.geometry} material={materials['Material.001']} />
+        <mesh geometry={nodes.Cubo045_2.geometry} material={materials['Material.002']} />
+      </group>
+      <mesh geometry={nodes.Cubo041.geometry} material={materials.arbol2} position={[24.282, 1.644, 10.064]} scale={0.068} />
+      <group position={[-5.658, 14.235, 25.557]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-3.124, -8.263, -3.189]}>
+        <mesh geometry={nodes.Cubo051_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo051_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[3.626, 10.836, 26.072]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo052_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo052_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-0.838, 12.283, 17.481]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.682, -7.095, -2.738]}>
+        <mesh geometry={nodes.Cubo053_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo053_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[3.16, 7.567, -20.851]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-1.657, -4.384, -1.692]}>
+        <mesh geometry={nodes.Cubo054_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo054_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-12.939, 14.235, -24.965]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-3.124, -8.263, -3.189]}>
+        <mesh geometry={nodes.Cubo055_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo055_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[0.471, 10.836, -25.785]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo056_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo056_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-5.813, 12.283, -18.965]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.682, -7.095, -2.738]}>
+        <mesh geometry={nodes.Cubo057_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo057_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[25.207, 0.695, 15.477]} scale={-0.442}>
+        <mesh geometry={nodes.Cubo058_1.geometry} material={materials['Material.007']} />
+        <mesh geometry={nodes.Cubo058_2.geometry} material={materials['Material.008']} />
+      </group>
+      <mesh geometry={nodes.Cube002.geometry} material={materials['Material.004']} position={[11.587, 0, 75.407]} rotation={[0, 0, -Math.PI]} scale={[-29.373, -0.144, -28.081]} />
+      <mesh geometry={nodes.Cube003.geometry} material={materials['Material.004']} position={[-70.742, 0, 75.407]} rotation={[0, 0, -Math.PI]} scale={[-29.373, -0.144, -28.081]} />
+      <mesh geometry={nodes.Cube004.geometry} material={materials['Material.004']} position={[-70.742, 0, 0.888]} rotation={[0, 0, -Math.PI]} scale={[-29.373, -0.144, -28.081]} />
+      <mesh geometry={nodes.Plano002.geometry} material={materials.piso} position={[-26.853, -0.142, 25.796]} scale={132.305} />
+      <group position={[6.58, 10.864, 56.9]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo059_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo059_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-11.999, 14.235, 54.115]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-3.124, -8.263, -3.189]}>
+        <mesh geometry={nodes.Cubo060_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo060_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[3.8, 10.836, 66.371]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo061_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo061_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-0.838, 12.283, 53.587]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.682, -7.095, -2.738]}>
+        <mesh geometry={nodes.Cubo062_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo062_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-49.842, 10.836, 57.81]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo064_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo064_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-46.267, 12.283, 51.49]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.682, -7.095, -2.738]}>
+        <mesh geometry={nodes.Cubo065_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo065_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-61.572, 14.235, 16.233]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-3.124, -8.263, -3.189]}>
+        <mesh geometry={nodes.Cubo066_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo066_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-52.113, 10.836, 20.942]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo067_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo067_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-48.539, 12.283, 14.623]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.682, -7.095, -2.738]}>
+        <mesh geometry={nodes.Cubo068_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo068_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-3.441, 10.864, 84.973]} rotation={[0, 0.004, -Math.PI]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo069_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo069_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-8.25, 14.235, 72.753]} rotation={[0, 0.004, -Math.PI]} scale={[-3.124, -8.263, -3.189]}>
+        <mesh geometry={nodes.Cubo070_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo070_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-12.923, 10.836, 82.229]} rotation={[0, 0.004, -Math.PI]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo071_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo071_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-0.157, 12.283, 77.543]} rotation={[0, -1.567, -Math.PI]} scale={[-2.682, -7.095, -2.738]}>
+        <mesh geometry={nodes.Cubo072_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo072_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-47.828, 10.864, 79.731]} rotation={[0, 0.004, -Math.PI]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo073_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo073_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-58.747, 14.235, 67.511]} rotation={[0, 0.004, -Math.PI]} scale={[-3.124, -8.263, -3.189]}>
+        <mesh geometry={nodes.Cubo074_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo074_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-63.42, 10.836, 76.987]} rotation={[0, 0.004, -Math.PI]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo075_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo075_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-50.653, 12.283, 72.301]} rotation={[0, -1.567, -Math.PI]} scale={[-2.682, -7.095, -2.738]}>
+        <mesh geometry={nodes.Cubo076_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo076_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-86.776, 14.235, 64.575]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-3.124, -8.263, -3.189]}>
+        <mesh geometry={nodes.Cubo077_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo077_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-77.317, 10.836, 69.283]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo078_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo078_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-73.743, 12.283, 62.964]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.682, -7.095, -2.738]}>
+        <mesh geometry={nodes.Cubo079_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo079_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-81.414, 10.864, 91.205]} rotation={[0, 0.004, -Math.PI]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo080_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo080_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-86.223, 14.235, 78.985]} rotation={[0, 0.004, -Math.PI]} scale={[-3.124, -8.263, -3.189]}>
+        <mesh geometry={nodes.Cubo081_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo081_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-90.896, 10.836, 88.461]} rotation={[0, 0.004, -Math.PI]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo082_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo082_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-78.129, 12.283, 83.775]} rotation={[0, -1.567, -Math.PI]} scale={[-2.682, -7.095, -2.738]}>
+        <mesh geometry={nodes.Cubo083_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo083_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-86.028, 14.235, 10.195]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-3.124, -8.263, -3.189]}>
+        <mesh geometry={nodes.Cubo084_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo084_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-76.57, 10.836, 14.903]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo085_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo085_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-72.995, 12.283, 8.584]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.682, -7.095, -2.738]}>
+        <mesh geometry={nodes.Cubo086_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo086_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-51.824, 10.864, 4.249]} rotation={[0, 0.004, -Math.PI]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo087_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo087_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-56.633, 14.235, -22.123]} rotation={[0, 0.004, -Math.PI]} scale={[-3.124, -8.263, -3.189]}>
+        <mesh geometry={nodes.Cubo088_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo088_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-61.307, 10.836, 1.504]} rotation={[0, 0.004, -Math.PI]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo089_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo089_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-48.54, 12.283, -3.182]} rotation={[0, -1.567, -Math.PI]} scale={[-2.682, -7.095, -2.738]}>
+        <mesh geometry={nodes.Cubo090_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo090_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-75.204, 10.836, -6.2]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo091_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo091_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-71.63, 12.283, -12.519]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.682, -7.095, -2.738]}>
+        <mesh geometry={nodes.Cubo092_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo092_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-60.61, 14.235, 86.723]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-3.124, -8.263, -3.189]}>
+        <mesh geometry={nodes.Cubo093_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo093_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-51.151, 10.836, 91.432]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo094_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo094_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-63.202, 14.235, 97.813]} rotation={[0, 0.004, -Math.PI]} scale={[-3.124, -8.263, -3.189]}>
+        <mesh geometry={nodes.Cubo096_1.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo096_2.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-4.119, 10.864, 100.867]} rotation={[0, 0.004, -Math.PI]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo097.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo097_1.geometry} material={materials.cafe} />
+      </group>
+      <group position={[16.589, 14.235, 88.646]} rotation={[0, 0.004, -Math.PI]} scale={[-3.124, -8.263, -3.189]}>
+        <mesh geometry={nodes.Cubo098.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo098_1.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-13.601, 10.836, 98.122]} rotation={[0, 0.004, -Math.PI]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo099.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo099_1.geometry} material={materials.cafe} />
+      </group>
+      <group position={[-0.835, 12.283, 93.437]} rotation={[0, -1.567, -Math.PI]} scale={[-2.682, -7.095, -2.738]}>
+        <mesh geometry={nodes.Cubo100.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo100_1.geometry} material={materials.cafe} />
+      </group>
+      <group position={[18.62, 10.864, 56.9]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-2.417, -6.394, -2.468]}>
+        <mesh geometry={nodes.Cubo101.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo101_1.geometry} material={materials.cafe} />
+      </group>
+      <group position={[23.442, 5.305, 26.782]} rotation={[Math.PI, Math.PI / 2, 0]} scale={[-1.145, -3.029, -1.169]}>
+        <mesh geometry={nodes.Cubo102.geometry} material={materials.arbol} />
+        <mesh geometry={nodes.Cubo102_1.geometry} material={materials.cafe} />
+      </group>
+      <group position={[25.207, 0.695, -15.158]} scale={-0.442}>
+        <mesh geometry={nodes.Cubo103.geometry} material={materials['Material.007']} />
+        <mesh geometry={nodes.Cubo103_1.geometry} material={materials['Material.008']} />
+      </group>
+      <group position={[7.652, 21.519, -8.242]} scale={[0.092, 0.304, 0.092]}>
+        <mesh geometry={nodes.Cubo104.geometry} material={materials.negro} />
+        <mesh geometry={nodes.Cubo104_1.geometry} material={materials['blanco 2']} />
+      </group>
+      <group position={[7.652, 21.519, 8.244]} scale={[0.092, 0.304, 0.092]}>
+        <mesh geometry={nodes.Cubo105.geometry} material={materials.negro} />
+        <mesh geometry={nodes.Cubo105_1.geometry} material={materials['blanco 2']} />
+      </group>
+      <group position={[6.537, 21.492, -9.272]} scale={[0.092, 0.304, 0.092]}>
+        <mesh geometry={nodes.Cubo106.geometry} material={materials.negro} />
+        <mesh geometry={nodes.Cubo106_1.geometry} material={materials['blanco 2']} />
+      </group>
+      <group position={[-6.019, 21.492, -9.272]} scale={[0.092, 0.304, 0.092]}>
+        <mesh geometry={nodes.Cubo107.geometry} material={materials.negro} />
+        <mesh geometry={nodes.Cubo107_1.geometry} material={materials['blanco 2']} />
+      </group>
     </group>
   )
 }

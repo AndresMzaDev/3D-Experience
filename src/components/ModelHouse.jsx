@@ -25,25 +25,47 @@ export function ModelHouse(props) {
   useEffect(() => {
     tl.current = gsap.timeline();
 
-    // vertical animation
-    tl.current.to(
-      ref.current.position,
-      {
-        duration: 2,
-        y: -FLOOR_HEIGHT * (NB_FLOORS - 1),
-      },
-      0
-    );
-
     tl.current.to(
       ref.current.rotation,
       { duration: 1, x: 0, y: Math.PI / 6, z: 0 },
       0
     );
+    tl.current.to(ref.current.rotation, { duration: 2, x: 0, y: 0, z: 0 }, 1);
+    // tl.current.to(
+    //   ref.current.rotation,
+    //   { duration: 1, x: 0, y: -Math.PI / 6, z: 0 },
+    //   2
+    // );
+
+    // Office movement
     tl.current.to(
-      ref.current.rotation,
-      { duration: 1, x: 0, y: -Math.PI / 6, z: 0 },
+      ref.current.position,
+      {
+        duration: 1,
+        x: -60,
+        z: 60,
+      },
+      0
+    );
+    tl.current.to(
+      ref.current.position,
+      {
+        duration: 1,
+        x: -70,
+        z: 0,
+        y: -FLOOR_HEIGHT * (NB_FLOORS - 3),
+      },
       1
+    );
+    tl.current.to(
+      ref.current.position,
+      {
+        duration: 2,
+        x: 0,
+        z: 0,
+        y: 0,
+      },
+      2
     );
   }, []);
 
@@ -54,6 +76,8 @@ export function ModelHouse(props) {
       ref={ref}
       position={[0.5, -1, -1]}
       rotation={[0, -Math.PI / 3, 0]}
+      castShadow
+      receiveShadow
     >
       <group scale={[16.544, 2.16, 16.544]}>
         <mesh geometry={nodes.Cube_1.geometry} material={materials.verde2} />
